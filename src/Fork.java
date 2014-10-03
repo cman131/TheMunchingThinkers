@@ -1,11 +1,9 @@
-import java.lang.Exception;
-
 public class Fork implements IFork {
 
     private volatile boolean held;
-	
-	@Override
-	public void acquire() {
+
+    @Override
+    public void acquire() {
         while (held) {
             Thread.yield();
         }
@@ -14,14 +12,14 @@ public class Fork implements IFork {
         }
     }
 
-	@Override
-	public void release() {
+    @Override
+    public void release() {
         if (!held) {
             throw new IllegalStateException("Cannot release an unheld fork.");
         }
         synchronized (this) {
             held = false;
         }
-	}
+    }
 
 }
