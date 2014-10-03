@@ -1,14 +1,14 @@
 
 public class Philosopher extends Thread {
 	private final int id;
-	private Fork left;
-	private Fork right;
+	private IFork left;
+	private IFork right;
 	private final boolean rHanded;
 	private final int nTimes;
 	private final long thinkMillis;
 	private final long eatMillis;
 	
-	public Philosopher(int id, Fork left, Fork right, boolean rHanded,
+	public Philosopher(int id, IFork left, IFork right, boolean rHanded,
                    int nTimes, long thinkMillis, long eatMillis){
 		this.id = id;
 		this.left = left;
@@ -31,7 +31,7 @@ public class Philosopher extends Thread {
 			String forkName = (rHanded ? "right" : "left");
 			System.out.println("Philosopher "+id+" goes for "+forkName+" fork.");
 			myFork.acquire();
-			System.out.println("Philosopher "+id+"has "+forkName+" fork.");
+			System.out.println("Philosopher "+id+" has "+forkName+" fork.");
 			Thread.yield();
 			
 			IFork myFork2 = (rHanded ? left : right);

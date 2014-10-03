@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class Driver {
 
@@ -18,7 +19,7 @@ public class Driver {
 		}
 		for(int i=0; i<np; i++){
 			philosophers.add(new Philosopher(i,forks.get(i),forks.get((np+i-1)%np),(l ? (i%2==0 ? true : false) : true),nt,tm,em));
-			philosopher.get(i).start();
+			philosophers.get(i).start();
 		}
 	}
 
