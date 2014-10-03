@@ -2,22 +2,26 @@ import java.lang.Exception;
 
 public class Fork implements IFork {
 
-    private volatile Thread holding;
+    private volatile boolean held;
 	
 	@Override
 	public void acquire() {
-		while (holding != null) {
+        while (held) {
             Thread.yield();
         }
-        holding = Thread.currentThread();
-	}
+        synchronized (this) {
+            held = true;
+        }
+    }
 
 	@Override
 	public void release() {
-        if (!holding.equals(Thread.currentThread())) {
-            throw new IllegalStateException("Cannot release a fork that the calling thread does not hold.");
+        if (!held) {
+            throw new IllegalStateException("Cannot release an unheld fork.");
         }
-        holding = null;
+        synchronized (this) {
+            held = false;
+        }
 	}
 
 }
