@@ -15,7 +15,6 @@ public class Banker {
 			System.exit(1);
 		}
 		claims.put(cur.getName(),nUnits);
-		this.nUnits-=nUnits;
 		allocated.put(cur.getName(),0);
 		System.out.println("Thread "+cur.getName()+" sets a claim for "+nUnits+" units.");
 	}
@@ -33,11 +32,13 @@ public class Banker {
 			System.out.println("Thread "+name+" has "+nUnits+" units allocated.");
 			allocated.put(name, nUnits+allocated.get(name));
 			claims.put(name, claims.get(name)-nUnits);
+			this.nUnits-=nUnits;
 		}
 		else{
 			System.out.println("Thread "+name+" waits.");
 			//wait for change in state
 			//TODO
+
 		}
 	}
 	
