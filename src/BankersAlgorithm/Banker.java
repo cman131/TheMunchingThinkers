@@ -1,3 +1,5 @@
+package BankersAlgorithm;
+
 import java.util.HashMap;
 
 public class Banker {
