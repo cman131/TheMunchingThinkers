@@ -2,8 +2,6 @@ package BankersAlgorithm;
 
 import java.util.ArrayList;
 
-import com.sun.security.ntlm.Client;
-
 public class Driver {
 
     private final static int bankerUnits = 5;
