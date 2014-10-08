@@ -1,3 +1,5 @@
+package BankersAlgorithm;
+
 public class Client extends Thread{
 	
 	private Banker banker;
@@ -15,7 +17,7 @@ public class Client extends Thread{
 		this.maxSleepMillis = maxSleepMillis;
 	}
 	
-	private void run(){
+	public void run(){
 		
 	}
 }
