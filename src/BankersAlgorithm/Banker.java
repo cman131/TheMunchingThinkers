@@ -29,19 +29,14 @@ public class Banker {
 		}
 		System.out.println("Thread "+name+" requests "+nUnits+" units.");
 		
-		boolean safe = true;
-		if(safe){
-			System.out.println("Thread "+name+" has "+nUnits+" units allocated.");
-			allocated.put(name, nUnits+allocated.get(name));
-			claims.put(name, claims.get(name)-nUnits);
-			this.nUnits-=nUnits;
-		}
-		else{
+		while(this.nUnits<nUnits){
 			System.out.println("Thread "+name+" waits.");
-			//wait for change in state
-			//TODO
-
+			cur.wait();
 		}
+		System.out.println("Thread "+name+" has "+nUnits+" units allocated.");
+		allocated.put(name, nUnits+allocated.get(name));
+		claims.put(name, claims.get(name)-nUnits);
+		this.nUnits-=nUnits;
 	}
 	
 	public void release(int nUnits){
