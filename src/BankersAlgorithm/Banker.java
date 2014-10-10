@@ -11,7 +11,7 @@ public class Banker {
 		this.nUnits = nUnits;
 	}
 	
-	public void setClaim(int nUnits){
+	public synchronized void setClaim(int nUnits){
 		Thread cur = Thread.currentThread();
 		if(claims.get(cur.getName())!=null || nUnits<=0 || nUnits>this.nUnits){
 			System.exit(1);
@@ -21,7 +21,7 @@ public class Banker {
 		System.out.println("Thread "+cur.getName()+" sets a claim for "+nUnits+" units.");
 	}
 	
-	public boolean request(int nUnits){
+	public synchronized boolean request(int nUnits){
 		Thread cur = Thread.currentThread();
 		String name = cur.getName();
 		if(claims.get(name)==null || nUnits<=0 || nUnits>claims.get(name)){
@@ -46,11 +46,11 @@ public class Banker {
         return true;
 	}
 	
-	public void release(){
-		release(allocated.get(Thread.current().getName()));
+	public synchronized void release(){
+		release(allocated.get(Thread.currentThread().getName()));
 	}
 
-	public void release(int nUnits){
+	public synchronized void release(int nUnits){
 		Thread cur = Thread.currentThread();
 		String name = cur.getName();
 
@@ -60,14 +60,17 @@ public class Banker {
 		System.out.println("Thread "+name+" releases "+nUnits+" units.");
 		allocated.put(name,allocated.get(name)-nUnits);
 		this.nUnits+=nUnits;
-		cur.notifyAll();
+		notifyAll();
 	}
 	
-	public int allocated(){
+	public synchronized int allocated(){
 		return allocated.get(Thread.currentThread().getName());
 	}
 	
-	public int remaining(){
-		return claims.get(Thread.currentThread().getName());
+	public synchronized int remaining(){
+		if (claims.get(Thread.currentThread().getName()) != null){
+			return claims.get(Thread.currentThread().getName());
+		}
+		else return -1;
 	}
 }
