@@ -1,3 +1,4 @@
+package DiningPhilosophers;
 public class Philosopher extends Thread {
     private final int id;
     private final boolean rHanded;

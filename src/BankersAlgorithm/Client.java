@@ -18,6 +18,22 @@ public class Client extends Thread{
 	}
 	
 	public void run(){
-		
+		int randomVal = (int) (Math.floor(Math.random() * nUnits) + 1);
+		for(int i = 0; i < nRequests; i++){
+			if (banker.remaining() == 0){
+					banker.release(nUnits);
+			}
+			else{
+				banker.request(randomVal);
+			}
+			long sleepDuration = (long) Math.random() * (maxSleepMillis - minSleepMillis);
+			try {
+				Thread.sleep(sleepDuration);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		banker.release();
 	}
 }

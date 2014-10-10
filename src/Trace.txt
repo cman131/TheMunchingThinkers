@@ -1,0 +1,470 @@
+//Run Number 1
+//Default Arguments
+Philosopher 0 thinks for 0 time units.
+Philosopher 1 thinks for 0 time units.
+Philosopher 0 goes for right fork.
+Philosopher 1 goes for right fork.
+Philosopher 0 has right fork.
+Philosopher 1 has right fork.
+Philosopher 0 goes for left fork.
+Philosopher 2 thinks for 0 time units.
+Philosopher 2 goes for right fork.
+Philosopher 2 has right fork.
+Philosopher 2 goes for left fork.
+Philosopher 2has left fork.
+Philosopher 2 eats for 0 time units
+Philosopher 2 releases right fork.
+Philosopher 2 releases left fork.
+Philosopher 2 thinks for 0 time units.
+Philosopher 2 goes for right fork.
+Philosopher 2 has right fork.
+Philosopher 2 goes for left fork.
+Philosopher 2has left fork.
+Philosopher 2 eats for 0 time units
+Philosopher 2 releases right fork.
+Philosopher 2 releases left fork.
+Philosopher 2 thinks for 0 time units.
+Philosopher 2 goes for right fork.
+Philosopher 2 has right fork.
+Philosopher 2 goes for left fork.
+Philosopher 2has left fork.
+Philosopher 2 eats for 0 time units
+Philosopher 2 releases right fork.
+Philosopher 2 releases left fork.
+Philosopher 2 thinks for 0 time units.
+Philosopher 2 goes for right fork.
+Philosopher 2 has right fork.
+Philosopher 2 goes for left fork.
+Philosopher 2has left fork.
+Philosopher 2 eats for 0 time units
+Philosopher 2 releases right fork.
+Philosopher 2 releases left fork.
+Philosopher 2 thinks for 0 time units.
+Philosopher 2 goes for right fork.
+Philosopher 2 has right fork.
+Philosopher 2 goes for left fork.
+Philosopher 2has left fork.
+Philosopher 2 eats for 0 time units
+Philosopher 2 releases right fork.
+Philosopher 2 releases left fork.
+Philosopher 2 thinks for 0 time units.
+Philosopher 2 goes for right fork.
+Philosopher 2 has right fork.
+Philosopher 2 goes for left fork.
+Philosopher 2has left fork.
+Philosopher 2 eats for 0 time units
+Philosopher 2 releases right fork.
+Philosopher 2 releases left fork.
+Philosopher 2 thinks for 0 time units.
+Philosopher 2 goes for right fork.
+Philosopher 2 has right fork.
+Philosopher 2 goes for left fork.
+Philosopher 2has left fork.
+Philosopher 2 eats for 0 time units
+Philosopher 2 releases right fork.
+Philosopher 2 releases left fork.
+Philosopher 2 thinks for 0 time units.
+Philosopher 1 goes for left fork.
+Philosopher 1has left fork.
+Philosopher 3 thinks for 0 time units.
+Philosopher 1 eats for 0 time units
+Philosopher 2 goes for right fork.
+Philosopher 0has left fork.
+Philosopher 1 releases right fork.
+Philosopher 3 goes for right fork.
+Philosopher 1 releases left fork.
+Philosopher 0 eats for 0 time units
+Philosopher 1 thinks for 0 time units.
+Philosopher 2 has right fork.
+Philosopher 3 has right fork.
+Philosopher 2 goes for left fork.
+Philosopher 3 goes for left fork.
+Philosopher 1 goes for right fork.
+Philosopher 0 releases right fork.
+Philosopher 3has left fork.
+Philosopher 0 releases left fork.
+Philosopher 3 eats for 0 time units
+Philosopher 1 has right fork.
+Philosopher 0 thinks for 0 time units.
+Philosopher 1 goes for left fork.
+Philosopher 2has left fork.
+Philosopher 3 releases right fork.
+Philosopher 0 goes for right fork.
+Philosopher 2 eats for 0 time units
+Philosopher 3 releases left fork.
+Philosopher 0 has right fork.
+Philosopher 1has left fork.
+Philosopher 2 releases right fork.
+Philosopher 2 releases left fork.
+Philosopher 2 thinks for 0 time units.
+Philosopher 3 thinks for 0 time units.
+Philosopher 2 goes for right fork.
+Philosopher 1 eats for 0 time units
+Philosopher 0 goes for left fork.
+Philosopher 1 releases right fork.
+Philosopher 1 releases left fork.
+Philosopher 1 thinks for 0 time units.
+Philosopher 2 has right fork.
+Philosopher 0has left fork.
+Philosopher 2 goes for left fork.
+Philosopher 2has left fork.
+Philosopher 0 eats for 0 time units
+Philosopher 2 eats for 0 time units
+Philosopher 0 releases right fork.
+Philosopher 0 releases left fork.
+Philosopher 0 thinks for 0 time units.
+Philosopher 1 goes for right fork.
+Philosopher 1 has right fork.
+Philosopher 2 releases right fork.
+Philosopher 2 releases left fork.
+Philosopher 2 thinks for 0 time units.
+Philosopher 3 goes for right fork.
+Philosopher 3 has right fork.
+Philosopher 1 goes for left fork.
+Philosopher 1has left fork.
+Philosopher 0 goes for right fork.
+Philosopher 0 has right fork.
+Philosopher 2 goes for right fork.
+Philosopher 3 goes for left fork.
+Philosopher 1 eats for 0 time units
+Philosopher 0 goes for left fork.
+Philosopher 1 releases right fork.
+Philosopher 1 releases left fork.
+Philosopher 1 thinks for 0 time units.
+Philosopher 2 has right fork.
+Philosopher 0has left fork.
+Philosopher 2 goes for left fork.
+Philosopher 0 eats for 0 time units
+Philosopher 0 releases right fork.
+Philosopher 0 releases left fork.
+Philosopher 0 thinks for 0 time units.
+Philosopher 3has left fork.
+Philosopher 1 goes for right fork.
+Philosopher 1 has right fork.
+Philosopher 3 eats for 0 time units
+Philosopher 3 releases right fork.
+Philosopher 3 releases left fork.
+Philosopher 3 thinks for 0 time units.
+Philosopher 2has left fork.
+Philosopher 1 goes for left fork.
+Philosopher 2 eats for 0 time units
+Philosopher 0 goes for right fork.
+Philosopher 0 has right fork.
+Philosopher 2 releases right fork.
+Philosopher 2 releases left fork.
+Philosopher 1has left fork.
+Philosopher 0 goes for left fork.
+Philosopher 1 eats for 0 time units
+Philosopher 3 goes for right fork.
+Philosopher 3 has right fork.
+Philosopher 1 releases right fork.
+Philosopher 1 releases left fork.
+Philosopher 1 thinks for 0 time units.
+Philosopher 0has left fork.
+Philosopher 3 goes for left fork.
+Philosopher 0 eats for 0 time units
+Philosopher 0 releases right fork.
+Philosopher 0 releases left fork.
+Philosopher 0 thinks for 0 time units.
+Philosopher 3has left fork.
+Philosopher 1 goes for right fork.
+Philosopher 1 has right fork.
+Philosopher 3 eats for 0 time units
+Philosopher 1 goes for left fork.
+Philosopher 1has left fork.
+Philosopher 3 releases right fork.
+Philosopher 3 releases left fork.
+Philosopher 0 goes for right fork.
+Philosopher 1 eats for 0 time units
+Philosopher 3 thinks for 0 time units.
+Philosopher 1 releases right fork.
+Philosopher 0 has right fork.
+Philosopher 1 releases left fork.
+Philosopher 3 goes for right fork.
+Philosopher 1 thinks for 0 time units.
+Philosopher 0 goes for left fork.
+Philosopher 1 goes for right fork.
+Philosopher 3 has right fork.
+Philosopher 0has left fork.
+Philosopher 3 goes for left fork.
+Philosopher 0 eats for 0 time units
+Philosopher 0 releases right fork.
+Philosopher 0 releases left fork.
+Philosopher 1 has right fork.
+Philosopher 3has left fork.
+Philosopher 0 thinks for 0 time units.
+Philosopher 3 eats for 0 time units
+Philosopher 1 goes for left fork.
+Philosopher 3 releases right fork.
+Philosopher 0 goes for right fork.
+Philosopher 3 releases left fork.
+Philosopher 1has left fork.
+Philosopher 3 thinks for 0 time units.
+Philosopher 0 has right fork.
+Philosopher 3 goes for right fork.
+Philosopher 1 eats for 0 time units
+Philosopher 3 has right fork.
+Philosopher 0 goes for left fork.
+Philosopher 3 goes for left fork.
+Philosopher 1 releases right fork.
+Philosopher 1 releases left fork.
+Philosopher 1 thinks for 0 time units.
+Philosopher 0has left fork.
+Philosopher 1 goes for right fork.
+Philosopher 0 eats for 0 time units
+Philosopher 0 releases right fork.
+Philosopher 3has left fork.
+Philosopher 1 has right fork.
+Philosopher 0 releases left fork.
+Philosopher 1 goes for left fork.
+Philosopher 3 eats for 0 time units
+Philosopher 1has left fork.
+Philosopher 0 thinks for 0 time units.
+Philosopher 1 eats for 0 time units
+Philosopher 3 releases right fork.
+Philosopher 1 releases right fork.
+Philosopher 0 goes for right fork.
+Philosopher 1 releases left fork.
+Philosopher 3 releases left fork.
+Philosopher 1 thinks for 0 time units.
+Philosopher 0 has right fork.
+Philosopher 1 goes for right fork.
+Philosopher 3 thinks for 0 time units.
+Philosopher 1 has right fork.
+Philosopher 0 goes for left fork.
+Philosopher 1 goes for left fork.
+Philosopher 3 goes for right fork.
+Philosopher 1has left fork.
+Philosopher 3 has right fork.
+Philosopher 1 eats for 0 time units
+Philosopher 3 goes for left fork.
+Philosopher 1 releases right fork.
+Philosopher 0has left fork.
+Philosopher 1 releases left fork.
+Philosopher 0 eats for 0 time units
+Philosopher 1 thinks for 0 time units.
+Philosopher 0 releases right fork.
+Philosopher 1 goes for right fork.
+Philosopher 3has left fork.
+Philosopher 1 has right fork.
+Philosopher 0 releases left fork.
+Philosopher 1 goes for left fork.
+Philosopher 3 eats for 0 time units
+Philosopher 1has left fork.
+Philosopher 0 thinks for 0 time units.
+Philosopher 1 eats for 0 time units
+Philosopher 3 releases right fork.
+Philosopher 1 releases right fork.
+Philosopher 0 goes for right fork.
+Philosopher 1 releases left fork.
+Philosopher 3 releases left fork.
+Philosopher 1 thinks for 0 time units.
+Philosopher 0 has right fork.
+Philosopher 1 goes for right fork.
+Philosopher 3 thinks for 0 time units.
+Philosopher 1 has right fork.
+Philosopher 0 goes for left fork.
+Philosopher 1 goes for left fork.
+Philosopher 1has left fork.
+Philosopher 3 goes for right fork.
+Philosopher 3 has right fork.
+Philosopher 1 eats for 0 time units
+Philosopher 3 goes for left fork.
+Philosopher 1 releases right fork.
+Philosopher 0has left fork.
+Philosopher 1 releases left fork.
+Philosopher 0 eats for 0 time units
+Philosopher 0 releases right fork.
+Philosopher 3has left fork.
+Philosopher 0 releases left fork.
+Philosopher 0 thinks for 0 time units.
+Philosopher 3 eats for 0 time units
+Philosopher 0 goes for right fork.
+Philosopher 3 releases right fork.
+Philosopher 3 releases left fork.
+Philosopher 3 thinks for 0 time units.
+Philosopher 3 goes for right fork.
+Philosopher 3 has right fork.
+Philosopher 0 goes for left fork.
+Philosopher 0has left fork.
+Philosopher 3 goes for left fork.
+Philosopher 0 eats for 0 time units
+Philosopher 0 releases right fork.
+Philosopher 0 releases left fork.
+Philosopher 0 thinks for 0 time units.
+Philosopher 3has left fork.
+Philosopher 0 goes for right fork.
+Philosopher 3 eats for 0 time units
+Philosopher 3 releases right fork.
+Philosopher 3 releases left fork.
+Philosopher 3 thinks for 0 time units.
+Philosopher 0 has right fork.
+Philosopher 3 goes for right fork.
+Philosopher 3 has right fork.
+Philosopher 0 goes for left fork.
+Philosopher 0has left fork.
+Philosopher 3 goes for left fork.
+Philosopher 0 eats for 0 time units
+Philosopher 0 releases right fork.
+Philosopher 0 releases left fork.
+Philosopher 3has left fork.
+Philosopher 3 eats for 0 time units
+Philosopher 3 releases right fork.
+Philosopher 3 releases left fork.
+Philosopher 3 thinks for 0 time units.
+Philosopher 3 goes for right fork.
+Philosopher 3 has right fork.
+Philosopher 3 goes for left fork.
+Philosopher 3has left fork.
+Philosopher 3 eats for 0 time units
+Philosopher 3 releases right fork.
+Philosopher 3 releases left fork.
+//Results of the first run: The program does not deadlock.  The philosophers each have a turn to eat and think.
+
+//Run Number 2
+//Arguments: 2 0 0 0
+Philosopher 0 thinks for 0 time units.
+Philosopher 1 thinks for 0 time units.
+Philosopher 0 goes for right fork.
+Philosopher 0 has right fork.
+Philosopher 1 goes for right fork.
+Philosopher 1 has right fork.
+Philosopher 0 goes for left fork.
+Philosopher 1 goes for left fork.
+/*
+Results from the second run: The program deadlocks.  Each philosopher grabs the right fork and then attempts to grab
+their left fork - which is the other philosopher's right fork.  This causes them to forever only have one fork.
+Maybe if they picked up both forks atomically they could eat.
+*/
+
+//Run Number 3
+//Arguments: 3 0 0 0 
+Philosopher 0 thinks for 0 time units.
+Philosopher 2 thinks for 0 time units.
+Philosopher 1 thinks for 0 time units.
+Philosopher 2 goes for right fork.
+Philosopher 0 goes for right fork.
+Philosopher 2 has right fork.
+Philosopher 1 goes for right fork.
+Philosopher 2 goes for left fork.
+Philosopher 0 has right fork.
+Philosopher 1 has right fork.
+Philosopher 1 goes for left fork.
+Philosopher 0 goes for left fork.
+/*
+Results from the third run: Like the previous run, the program deadlocks.  Once again, each philosopher only holds another philosopher's second fork.  They should consider investing in more utensils.
+*/
+
+//Run Number 4
+//Arguments: -l 3 0 0 0 
+Philosopher 0 thinks for 0 time units.
+Philosopher 0 goes for right fork.
+Philosopher 0 has right fork.
+Philosopher 0 goes for left fork.
+Philosopher 0has left fork.
+Philosopher 0 eats for 0 time units
+Philosopher 0 releases right fork.
+Philosopher 0 releases left fork.
+Philosopher 0 thinks for 0 time units.
+Philosopher 0 goes for right fork.
+Philosopher 0 has right fork.
+Philosopher 0 goes for left fork.
+Philosopher 0has left fork.
+Philosopher 0 eats for 0 time units
+Philosopher 0 releases right fork.
+Philosopher 0 releases left fork.
+Philosopher 0 thinks for 0 time units.
+Philosopher 0 goes for right fork.
+Philosopher 0 has right fork.
+Philosopher 1 thinks for 0 time units.
+Philosopher 2 thinks for 0 time units.
+Philosopher 0 goes for left fork.
+Philosopher 2 goes for right fork.
+Philosopher 1 goes for right fork.
+Philosopher 2 has right fork.
+Philosopher 0has left fork.
+Philosopher 2 goes for left fork.
+Philosopher 0 eats for 0 time units
+Philosopher 0 releases right fork.
+Philosopher 2has left fork.
+Philosopher 1 has right fork.
+Philosopher 0 releases left fork.
+Philosopher 1 goes for left fork.
+Philosopher 2 eats for 0 time units
+Philosopher 0 thinks for 0 time units.
+Philosopher 2 releases right fork.
+Philosopher 2 releases left fork.
+Philosopher 1has left fork.
+Philosopher 0 goes for right fork.
+Philosopher 1 eats for 0 time units
+Philosopher 2 thinks for 0 time units.
+Philosopher 1 releases right fork.
+Philosopher 0 has right fork.
+Philosopher 1 releases left fork.
+Philosopher 2 goes for right fork.
+Philosopher 1 thinks for 0 time units.
+Philosopher 0 goes for left fork.
+Philosopher 1 goes for right fork.
+Philosopher 2 has right fork.
+Philosopher 0has left fork.
+Philosopher 2 goes for left fork.
+Philosopher 0 eats for 0 time units
+Philosopher 0 releases right fork.
+Philosopher 0 releases left fork.
+Philosopher 1 has right fork.
+Philosopher 2has left fork.
+Philosopher 0 thinks for 0 time units.
+Philosopher 2 eats for 0 time units
+Philosopher 1 goes for left fork.
+Philosopher 2 releases right fork.
+Philosopher 0 goes for right fork.
+Philosopher 2 releases left fork.
+Philosopher 1has left fork.
+Philosopher 2 thinks for 0 time units.
+Philosopher 0 has right fork.
+Philosopher 2 goes for right fork.
+Philosopher 1 eats for 0 time units
+Philosopher 0 goes for left fork.
+Philosopher 1 releases right fork.
+Philosopher 2 has right fork.
+Philosopher 2 goes for left fork.
+Philosopher 1 releases left fork.
+Philosopher 1 thinks for 0 time units.
+Philosopher 0has left fork.
+Philosopher 1 goes for right fork.
+Philosopher 0 eats for 0 time units
+Philosopher 0 releases right fork.
+Philosopher 2has left fork.
+Philosopher 1 has right fork.
+Philosopher 0 releases left fork.
+Philosopher 1 goes for left fork.
+Philosopher 2 eats for 0 time units
+Philosopher 0 thinks for 0 time units.
+Philosopher 2 releases right fork.
+Philosopher 1has left fork.
+Philosopher 0 goes for right fork.
+Philosopher 2 releases left fork.
+Philosopher 0 has right fork.
+Philosopher 1 eats for 0 time units
+Philosopher 0 goes for left fork.
+Philosopher 2 thinks for 0 time units.
+Philosopher 0has left fork.
+Philosopher 1 releases right fork.
+Philosopher 0 eats for 0 time units
+Philosopher 2 goes for right fork.
+Philosopher 0 releases right fork.
+Philosopher 1 releases left fork.
+Philosopher 0 releases left fork.
+Philosopher 2 has right fork.
+Philosopher 0 thinks for 0 time units.
+Philosopher 1 thinks for 0 time units.
+Philosopher 0 goes for right fork.
+Philosopher 2 goes for left fork.
+Philosopher 0 has right fork.
+Philosopher 1 goes for right fork.
+Philosopher 0 goes for left fork.
+Philosopher 1 has right fork.
+Philosopher 1 goes for left fork.
+/*
+Results from the fourth run: They made it so far!  Adding a left handed philospher into the mix helped for a little while.  But eventually, each philosopher ends up with only one fork.
+*/

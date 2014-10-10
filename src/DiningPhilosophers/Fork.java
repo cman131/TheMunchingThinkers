@@ -1,3 +1,4 @@
+package DiningPhilosophers;
 public class Fork implements IFork {
 
     private volatile boolean held;
