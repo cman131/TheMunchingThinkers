@@ -13,10 +13,10 @@ public class Driver {
 
 	public static void main(String[] args){
 		Banker banker = new Banker(bankerUnits);
-		ArrayList<Client> clients = new ArrayList<Client>();
-		for(int i=0; i<clientCount; i++){
-			clients.add(new Client("Client "+i, banker, clientUnits, clientRequests, minSleepMillis, maxSleepMillis));
-			clients.get(i).start();
-		}
-	}
+    ArrayList<Client> clients = new ArrayList<Client>();
+    for(int i=0; i<clientCount; i++){
+        clients.add(new Client("Client "+i, banker, clientUnits, clientRequests, minSleepMillis, maxSleepMillis));
+        clients.get(i).start();
+    }
+}
 }

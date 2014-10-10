@@ -47,7 +47,7 @@ public class Banker {
 	}
 	
 	public void release(){
-		release(allocated.get(Thread.current().getName()));
+		release(allocated.get(Thread.currentThread().getName()));
 	}
 
 	public void release(int nUnits){
