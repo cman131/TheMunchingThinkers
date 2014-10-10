@@ -46,6 +46,10 @@ public class Banker {
         return true;
 	}
 	
+	public void release(){
+		release(allocated.get(Thread.current().getName()));
+	}
+
 	public void release(int nUnits){
 		Thread cur = Thread.currentThread();
 		String name = cur.getName();
