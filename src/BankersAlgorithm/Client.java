@@ -26,7 +26,7 @@ public class Client extends Thread{
 			else{
 				banker.request(randomVal);
 			}
-			long sleepDuration = (long) Math.random() * (maxSleepMillis - minSleepMillis);
+			long sleepDuration = (long) (Math.random() * (maxSleepMillis - minSleepMillis));
 			try {
 				Thread.sleep(sleepDuration);
 			} catch (InterruptedException e) {
