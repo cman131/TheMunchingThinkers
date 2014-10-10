@@ -31,12 +31,19 @@ public class Banker {
 		
 		while(this.nUnits<nUnits){
 			System.out.println("Thread "+name+" waits.");
-			cur.wait();
-		}
+            try {
+                cur.wait();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
 		System.out.println("Thread "+name+" has "+nUnits+" units allocated.");
 		allocated.put(name, nUnits+allocated.get(name));
 		claims.put(name, claims.get(name)-nUnits);
 		this.nUnits-=nUnits;
+
+        //TODO Fix this! This return value was written by someone who has no bleeding idea of what's going on.
+        return true;
 	}
 	
 	public void release(int nUnits){
